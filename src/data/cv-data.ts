@@ -86,28 +86,28 @@ export const languageProficiencies: LanguageProficiency[] = [
 export const contacts: ContactItem[] = [
   {
     type: "email",
-    label: "ilia@kuznetsov-theatre.com",
-    href: "mailto:ilia@kuznetsov-theatre.com",
+    label: "eliaskuznets@gmail.com",
+    href: "mailto:eliaskuznets@gmail.com",
   },
   {
     type: "phone",
-    label: "+49 30 000 00 00",
-    href: "tel:+4930000000",
+    label: "+49 17654274325",
+    href: "tel:+4917654274325",
   },
   {
     type: "telegram",
-    label: "@iliakuznetsov",
-    href: "https://t.me/iliakuznetsov",
+    label: "@FirstMateFir",
+    href: "https://t.me/FirstMateFir",
   },
   {
     type: "instagram",
-    label: "@ilia.kzntsv",
-    href: "https://instagram.com/ilia.kzntsv",
+    label: "@FirstMateFir",
+    href: "https://instagram.com/FirstMateFir",
   },
   {
     type: "whatsapp",
     label: "WhatsApp",
-    href: "https://wa.me/4930000000",
+    href: "https://wa.me/4917654274325",
   },
 ];
 
