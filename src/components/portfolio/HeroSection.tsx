@@ -152,38 +152,17 @@ export default function HeroSection({ lang }: HeroSectionProps) {
             animate="show"
             className="flex items-center gap-5 mb-12"
           >
-            {contacts.map((c, i) => (
-              <a
-                key={i}
-                href={c.href}
-                target={c.type !== "email" && c.type !== "phone" ? "_blank" : undefined}
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-                aria-label={c.type}
-              >
-                {getContactIcon(c.type)}
-              </a>
-            ))}
           </motion.div>
-<div className="relative group">
-  <div className="w-56 h-72 md:w-80 md:h-[450px] overflow-hidden border border-border bg-secondary shadow-xl transition-all duration-500">
-    {personalData.photo ? (
-      <img 
-        src={personalData.photo} 
-        alt={personalData.firstName}
-        className="w-full h-full object-cover"
-      />
-    ) : (
-      <div className="w-full h-full flex items-center justify-center bg-muted">
-        <span className="font-mono text-[10px] text-muted-foreground uppercase tracking-[0.2em]">Photo</span>
-      </div>
-    )}
-  </div>
-  {/* Corner label */}
-  <div className="absolute -bottom-4 -left-4 bg-foreground text-background px-4 py-2 text-[10px] font-mono tracking-[0.2em] uppercase z-10">
-    {personalData.location}
-  </div>
-</div>
+
+          {/* Scroll CTA */}
+          <motion.button
+            custom={8}
+            variants={fadeUp}
+            initial="hidden"
+            animate="show"
+            onClick={scrollToTimeline}
+            className="group flex items-center gap-3 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
             <span className="w-px h-8 bg-border group-hover:bg-foreground transition-colors" />
             <ArrowDown size={15} className="scroll-indicator" />
             <span className="font-mono text-xs tracking-widest uppercase">
@@ -192,28 +171,29 @@ export default function HeroSection({ lang }: HeroSectionProps) {
           </motion.button>
         </div>
 
-        {/* Right: B&W Portrait Placeholder */}
+        {/* Right: Portrait */}
         <motion.div
           className="lg:col-span-4 order-1 lg:order-2 flex justify-center lg:justify-end"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.9, delay: 0.4 }}
         >
-          <div className="relative">
-            <div className="w-56 h-72 md:w-72 md:h-96 bg-secondary border border-border flex flex-col items-center justify-center">
-              {/* Minimalist B&W avatar */}
-              <div className="w-20 h-20 rounded-full bg-muted border border-border mb-4 flex items-center justify-center">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" className="text-muted-foreground">
-                  <circle cx="20" cy="14" r="7" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M4 38c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                </svg>
-              </div>
-              <span className="font-mono text-xs text-muted-foreground tracking-widest uppercase">
-                {personalData.firstName} {personalData.lastName}
-              </span>
+          <div className="relative group">
+            <div className="w-56 h-72 md:w-80 md:h-[450px] overflow-hidden border border-border bg-secondary shadow-xl transition-all duration-500">
+              {personalData.photo ? (
+                <img 
+                  src={personalData.photo} 
+                  alt={personalData.firstName}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center bg-muted">
+                  <span className="font-mono text-[10px] text-muted-foreground uppercase tracking-[0.2em]">Photo</span>
+                </div>
+              )}
             </div>
             {/* Corner label */}
-            <div className="absolute -bottom-4 -left-4 bg-foreground text-background px-3 py-1.5 text-xs font-mono tracking-widest uppercase">
+            <div className="absolute -bottom-4 -left-4 bg-foreground text-background px-4 py-2 text-[10px] font-mono tracking-[0.2em] uppercase z-10">
               {personalData.location}
             </div>
           </div>
