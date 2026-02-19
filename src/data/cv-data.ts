@@ -61,7 +61,7 @@ export const personalData: PersonalData = {
   name: "Ilia Kuznetsov",
   firstName: "Ilia",
   lastName: "Kuznetsov",
-  photo: "/myphoto.png",
+  photo: "myphoto.png",
   birthDate: "05.01.2001",
   title: {
     en: "Theatre Manager & Producer",
