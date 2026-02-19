@@ -26,7 +26,7 @@ export interface ProjectItem {
   description: { en: string; de: string };
   myRole: { en: string; de: string };
   team: TeamMember[];
-  images: string["myphoto.png"]; 
+  images: string[]; 
 }
 
 export interface LanguageProficiency {
@@ -49,6 +49,7 @@ export const personalData = {
   name: "Ilia Kuznetsov",
   firstName: "Ilia",
   lastName: "Kuznetsov",
+  photo: "/myphoto.png",
   birthDate: "05.01.2001",
   title: {
     en: "Theatre Manager & Producer",
