@@ -26,7 +26,7 @@ export interface ProjectItem {
   description: { en: string; de: string };
   myRole: { en: string; de: string };
   team: TeamMember[];
-  images: ["myphoto.png"]; 
+  images: string["myphoto.png"]; 
 }
 
 export interface LanguageProficiency {
