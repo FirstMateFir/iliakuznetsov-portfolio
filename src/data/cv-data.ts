@@ -272,7 +272,7 @@ export const projects: ProjectItem[] = [
       { role: { en: "Executive Producer", de: "Exekutivproduzentin" }, name: "Irina Paradnaya" },
       { role: { en: "General Producer", de: "Generalproduzentin" }, name: "Ekaterina Yakimova" },
     ],
-    images: ["cotton-fields1", "cotton-fields2", "cotton-fields3"],
+    images: ["cotton-fields1.jpg", "cotton-fields2.jpg", "cotton-fields3.jpg"],
   },
   {
     id: 2,
