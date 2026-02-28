@@ -257,12 +257,16 @@ export const projects: ProjectItem[] = [
       de: "Produktionsassistent & Tour Manager" 
     },
     description: {
-      en: "A world-tour production of Bernard-Marie Koltès' masterpiece, featuring John Malkovich and Ingeborga Dapkunaite.",
-      de: "Eine Welttournee-Produktion von Bernard-Marie Koltès' Meisterwerk mit John Malkovich und Ingeborga Dapkunaite.",
+      en: `A production of Bernard-Marie Koltès' masterpiece, featuring John Malkovich and Ingeborga Dapkunaite.
+
+The production toured internationally from February 2023 to June 2025 across 12 countries. Notable venues included the Thalia Theater in Hamburg and the Internationale Maifestspiele in Wiesbaden. The performance was staged over 40 times worldwide.`,
+      de: `Eine Inszenierung von Bernard-Marie Koltès' Meisterwerk mit John Malkovich und Ingeborga Dapkunaite.
+
+Die Produktion tourte von Februar 2023 bis Juni 2025 international durch 12 Länder. Zu den namhaften Spielstätten gehörten das Thalia Theater in Hamburg und die Internationalen Maifestspiele in Wiesbaden. Die Aufführung wurde weltweit über 40 Mal gezeigt.`,
     },
     myRole: {
-      en: "Managed complex logistics for the international cast and scenery, developed tour schedules, and handled hospitality riders and accommodation coordination for the crew in 12 countries. More details: https://flowprojects.org/cottonfields",
-      de: "Leitung der komplexen Logistik für das internationale Ensemble und das Bühnenbild, Erstellung von Tourneeplänen, Betreuung des Hospitality-Riders und Koordination der Unterbringung in 12 Ländern. Weitere Details: https://flowprojects.org/cottonfields",
+      en: "Managed complex logistics for the international cast and scenery, developed tour schedules, and handled hospitality riders and accommodation coordination for the crew.",
+      de: "Leitung der komplexen Logistik für das internationale Ensemble und das Bühnenbild, Erstellung von Tourneeplänen, Betreuung des Hospitality-Riders und Koordination der Unterbringung.",
     },
     team: [
       { role: { en: "Director", de: "Regie" }, name: "Timofey Kulyabin" },
