@@ -249,54 +249,31 @@ export const timeline: TimelineEntry[] = [
 
 export const projects: ProjectItem[] = [
   {
-  id: 1,
-  title: {
-    en: "In the Solitude of Cotton Fields",
-    de: "In the Solitude of Cotton Fields"
+    id: 1,
+    year: "2022 — 2025",
+    title: "In the Solitude of Cotton Fields",
+    role: { 
+      en: "Production Assistant & Tour Manager", 
+      de: "Produktionsassistent & Tour Manager" 
+    },
+    description: {
+      en: "A world-tour production of Bernard-Marie Koltès' masterpiece, featuring John Malkovich and Ingeborga Dapkunaite.",
+      de: "Eine Welttournee-Produktion von Bernard-Marie Koltès' Meisterwerk mit John Malkovich und Ingeborga Dapkunaite.",
+    },
+    myRole: {
+      en: "Managed complex logistics for the international cast and scenery, developed tour schedules, and handled hospitality riders and accommodation coordination for the crew in 12 countries. More details: https://flowprojects.org/cottonfields",
+      de: "Leitung der komplexen Logistik für das internationale Ensemble und das Bühnenbild, Erstellung von Tourneeplänen, Betreuung des Hospitality-Riders und Koordination der Unterbringung in 12 Ländern. Weitere Details: https://flowprojects.org/cottonfields",
+    },
+    team: [
+      { role: { en: "Director", de: "Regie" }, name: "Timofey Kulyabin" },
+      { role: { en: "Dramaturg", de: "Dramaturgie" }, name: "Roman Dolzhanskiy" },
+      { role: { en: "Stage Designer", de: "Bühnenbild" }, name: "Oleg Golovko" },
+      { role: { en: "Sound Designer", de: "Sounddesign" }, name: "Timofei Pastukhov" },
+      { role: { en: "Executive Producer", de: "Exekutivproduzentin" }, name: "Irina Paradnaya" },
+      { role: { en: "General Producer", de: "Generalproduzentin" }, name: "Ekaterina Yakimova" },
+    ],
+    images: ["cotton-fields1", "cotton-fields2", "cotton-fields3"],
   },
-  description: {
-    en: "A world-tour production of Bernard-Marie Koltès' masterpiece, featuring John Malkovich and Ingeborga Dapkunaite.",
-    de: "Eine Welttournee-Produktion von Bernard-Marie Koltès' Meisterwerk mit John Malkovich und Ingeborga Dapkunaite."
-  },
-images: ["cotton-fields1", "cotton-fields2", "cotton-fields3"],
-  fullDescription: {
-    en: `The production toured internationally from February 2023 to June 2025 across 12 countries. Notable venues included the Thalia Theater in Hamburg and the Internationale Maifestspiele in Wiesbaden. The performance was staged over 40 times worldwide.
-
-The famous play by Bernard-Marie Koltès was written in 1985. The given circumstances are strange. Two people meet in a dark cross street, one is the "seller", the other is the "buyer". The seller is trying to sell the buyer something that he has to tell himself. However, the buyer does not want to call this object by name and refuses the transaction in any way. The play is their argument, the confrontation of these two people, expressed in a play of words and meanings.
-
-Premiere took place in Riga, Latvia on May 28th, 2022.
-
-**My Role:** Managed complex logistics for the international cast and scenery, developed tour schedules, and handled hospitality riders and accommodation coordination for the crew in every host city.
-
-**Team:**
-Director: Timofey Kulyabin
-Dramaturg: Roman Dolzhanskiy
-Stage Designer: Oleg Golovko
-Sound Designer: Timofei Pastukhov
-Executive Producer: Irina Paradnaya
-General Producer: Ekaterina Yakimova
-
-More details: https://flowprojects.org/cottonfields`,
-
-    de: `Die Produktion tourte von Februar 2023 bis Juni 2025 international durch 12 Länder. Zu den namhaften Spielstätten gehörten das Thalia Theater in Hamburg und die Internationalen Maifestspiele in Wiesbaden. Die Aufführung wurde weltweit über 40 Mal gezeigt.
-
-Das berühmte Stück "In the Solitude of Cotton Fields" von Bernard-Marie Koltès wurde 1985 geschrieben. Die Umstände sind rätselhaft: Zwei Menschen treffen sich in einer dunklen Querstraße, der eine ist der „Verkäufer“, der andere der „Käufer“. Der Verkäufer versucht, dem Käufer etwas zu verkaufen, das dieser sich selbst eingestehen muss. Der Käufer jedoch will das Objekt nicht beim Namen nennen und verweigert das Geschäft. Das Stück ist ihr Streit, die Konfrontation zweier Menschen, ausgedrückt in einem Spiel aus Worten und Bedeutungen.
-
-Die Uraufführung fand am 28. Mai 2022 in Riga, Lettland, statt.
-
-**Meine Rolle:** Leitung der komplexen Logistik für das internationale Ensemble und das Bühnenbild, Erstellung von Tourneeplänen, Betreuung des Hospitality-Riders und Koordination der Unterbringung für die Crew in jeder Gaststadt.
-
-**Team:**
-Regie: Timofey Kulyabin
-Dramaturgie: Roman Dolzhanskiy
-Bühnenbild: Oleg Golovko
-Sounddesign: Timofei Pastukhov
-Exekutivproduzentin: Irina Paradnaya
-Generalproduzentin: Ekaterina Yakimova
-
-Weitere Details: https://flowprojects.org/cottonfields`
-  }
-},
   {
     id: 2,
     year: "2023",
