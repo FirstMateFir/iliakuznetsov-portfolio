@@ -249,7 +249,7 @@ export const timeline: TimelineEntry[] = [
 
 export const projects: ProjectItem[] = [
   {
-  id: "cotton-fields",
+  id: 1,
   title: {
     en: "In the Solitude of Cotton Fields",
     de: "In the Solitude of Cotton Fields"
