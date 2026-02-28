@@ -259,7 +259,7 @@ export const projects: ProjectItem[] = [
     de: "Eine Welttournee-Produktion von Bernard-Marie Koltès' Meisterwerk mit John Malkovich und Ingeborga Dapkunaite."
   },
   tags: ["Timofey Kulyabin", "John Malkovich", "World Tour"],
-image: ["cotton-fields1", "cotton-fields2", "cotton-fields3"],
+images: ["cotton-fields1", "cotton-fields2", "cotton-fields3"],
   fullDescription: {
     en: `The production toured internationally from February 2023 to June 2025 across 12 countries. Notable venues included the Thalia Theater in Hamburg and the Internationale Maifestspiele in Wiesbaden. The performance was staged over 40 times worldwide.
 
