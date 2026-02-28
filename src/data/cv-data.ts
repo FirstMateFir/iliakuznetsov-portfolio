@@ -276,7 +276,7 @@ Die Produktion tourte von Februar 2023 bis Juni 2025 international durch 12 Län
       { role: { en: "Executive Producer", de: "Exekutivproduzentin" }, name: "Irina Paradnaya" },
       { role: { en: "General Producer", de: "Generalproduzentin" }, name: "Ekaterina Yakimova" },
     ],
-images: ["project-4.jpg", "project-5.jpg"],
+images: ["cotton-fields1.jpg", "cotton-fields2.jpg", "cotton-fields3.jpg"],
   },
   {
     id: 2,
