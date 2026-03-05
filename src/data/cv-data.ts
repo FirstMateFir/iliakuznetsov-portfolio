@@ -361,7 +361,7 @@ images: ["project85.jpg", "project86.jpg", "project87.jpg"],
     images: ["/cremulator1.jpg", "/cremulator2.jpg"], 
   },
  {
-    id: 14, // Порядковый номер
+    id: 5,
     year: "2022 — 2023",
     title: "The Last Word",
     role: { 
@@ -385,111 +385,5 @@ images: ["project85.jpg", "project86.jpg", "project87.jpg"],
       { role: { en: "Composition", de: "Komposition" }, name: "Vladimir Rannev" },
     ],
     images: ["/last-word1.jpg", "/last-word2.jpg"],
-  },
-  {
-    id: 6,
-    year: "2021",
-    title: "Körper / Body",
-    role: { en: "Producer", de: "Produzent" },
-    description: {
-      en: "A contemporary dance-theatre piece exploring corporeality and identity. Presented at HAU Hebbel am Ufer, Berlin. Six sold-out performances, extended by popular demand.",
-      de: "Ein zeitgenössisches Tanztheaterstück über Körperlichkeit und Identität. Im HAU Hebbel am Ufer Berlin. Sechs ausverkaufte Vorstellungen, verlängert nach großer Nachfrage.",
-    },
-    myRole: {
-      en: "Independent production from initial pitch to closing night. Sourced funding through Berliner Senat für Kultur, negotiated venue contract, and coordinated marketing.",
-      de: "Unabhängige Produktion vom Erstpitch bis zur Schlussvorstellung. Förderung über Berliner Senat für Kultur, Vertragsverhandlungen mit der Venue, Marketing-Koordination.",
-    },
-    team: [
-      { role: { en: "Choreographer & Director", de: "Choreografin & Regisseurin" }, name: "Amara Traoré" },
-      { role: { en: "Dancer", de: "Tänzer" }, name: "Paul Seidel" },
-      { role: { en: "Dancer", de: "Tänzerin" }, name: "Jana Hofer" },
-      { role: { en: "Lighting Designer", de: "Lichtdesignerin" }, name: "Ruth Engel" },
-      { role: { en: "Composer", de: "Komponist" }, name: "Samuel Obi" },
-    ],
-    images: ["project-6.jpg", "project-7.jpg", "project-8.jpg"],
-  },
-  {
-    id: 7,
-    year: "2020",
-    title: "Die Stille danach",
-    role: { en: "Production Assistant → Co-Producer", de: "Produktionsassistent → Co-Produzent" },
-    description: {
-      en: "A pandemic-era production created in hybrid format: live performance with simultaneous livestream to 4,000 online viewers. Premiered at Volksbühne Berlin.",
-      de: "Eine Pandemie-Produktion im Hybridformat: Live-Aufführung mit simultaner Übertragung an 4.000 Online-Zuschauer. Uraufführung an der Volksbühne Berlin.",
-    },
-    myRole: {
-      en: "Managed health & safety protocols for in-person crew, coordinated with streaming technical team, and handled post-production of archive material.",
-      de: "Gesundheits- und Sicherheitsprotokolle für das Präsenz-Team, Koordination mit dem Streaming-Technikteam, Nachbereitung des Archivmaterials.",
-    },
-    team: [
-      { role: { en: "Director", de: "Regisseur" }, name: "Olaf Renz" },
-      { role: { en: "Stream Director", de: "Stream-Regisseur" }, name: "Tobias Lenz" },
-      { role: { en: "Lead Actress", de: "Hauptdarstellerin" }, name: "Miriam Koch" },
-      { role: { en: "Dramaturg", de: "Dramaturgin" }, name: "Sara Blum" },
-    ],
-    images: ["project-9.jpg", "project-10.jpg", "project-1.jpg"],
-  },
-  {
-    id: 8,
-    year: "2019",
-    title: "Schwarzer Freitag",
-    role: { en: "Production Coordinator", de: "Produktionskoordinator" },
-    description: {
-      en: "A devised piece exploring economic anxiety in contemporary Germany. Created collaboratively over eight weeks. Performed at Theater Neukölln with community audiences.",
-      de: "Ein kollektiv erarbeitetes Stück über wirtschaftliche Angst in Deutschland. Acht Wochen Entwicklungszeit. Aufgeführt im Theater Neukölln mit Stadtteilpublikum.",
-    },
-    myRole: {
-      en: "Day-to-day coordination of rehearsals, budget tracking, community outreach programme, and front-of-house management during the run.",
-      de: "Tageskoordination der Proben, Budgetverfolgung, Community-Outreach-Programm und Einlassmanagement während der Laufzeit.",
-    },
-    team: [
-      { role: { en: "Director & Author", de: "Regisseur & Autor" }, name: "Martin Zeiske" },
-      { role: { en: "Actor", de: "Schauspieler" }, name: "Ben Arndt" },
-      { role: { en: "Actress", de: "Schauspielerin" }, name: "Claire Dumont" },
-      { role: { en: "Set Designer", de: "Bühnenbildnerin" }, name: "Helena Voss" },
-    ],
-    images: ["project-2.jpg", "project-3.jpg", "project-4.jpg"],
-  },
-  {
-    id: 9,
-    year: "2018",
-    title: "Nachtstücke",
-    role: { en: "Event & Venue Manager", de: "Veranstaltungs- & Venue-Manager" },
-    description: {
-      en: "A late-night performance series at Sophiensaele Berlin, pairing emerging theatre makers with composers. Six editions, twelve artists, over 800 attendees per season.",
-      de: "Eine Nachtveranstaltungsreihe in den Sophiensaelen Berlin mit Theater- und Kompositionsduos. Sechs Ausgaben, zwölf Künstler, über 800 Besucher pro Saison.",
-    },
-    myRole: {
-      en: "Conceived and managed the entire series: artist selection, scheduling, technical setup, bar & venue operations, and season marketing.",
-      de: "Konzeption und Management der gesamten Reihe: Künstlerauswahl, Terminplanung, Technik, Bar- und Venue-Betrieb und Saisonmarketing.",
-    },
-    team: [
-      { role: { en: "Artistic Co-Curator", de: "Künstlerische Co-Kuratorin" }, name: "Iris Bauer" },
-      { role: { en: "Resident Composer", de: "Resident Komponist" }, name: "Jens Mehl" },
-      { role: { en: "Technical Coordinator", de: "Technische Koordinatorin" }, name: "Petra Wolf" },
-    ],
-    images: ["project-5.jpg", "project-6.jpg", "project-7.jpg"],
-  },
-  {
-    id: 10,
-    year: "2017",
-    title: "Grenzen / Borders",
-    role: { en: "Assistant Producer", de: "Assistent Produzent" },
-    description: {
-      en: "An international co-production between Maxim Gorki Theater and partners in Istanbul and Tbilisi. Examined migration and belonging through testimonial performance.",
-      de: "Eine internationale Koproduktion des Maxim Gorki Theaters mit Partnern in Istanbul und Tiflis. Thema: Migration und Zugehörigkeit durch Zeugnistheater.",
-    },
-    myRole: {
-      en: "Coordinated partner communications across three countries, supported international travel logistics, and assisted in grant reporting to the EU Creative Europe programme.",
-      de: "Koordination der Partnerkommunikation in drei Ländern, internationale Reiselogistik, Unterstützung bei der Berichterstattung an das EU Creative Europe-Programm.",
-    },
-    team: [
-      { role: { en: "Director", de: "Regisseurin" }, name: "Selin Yıldız" },
-      { role: { en: "Co-Director", de: "Ko-Regisseur" }, name: "Giorgi Asatiani" },
-      { role: { en: "Performer", de: "Performerin" }, name: "Nadia Müller" },
-      { role: { en: "Performer", de: "Performer" }, name: "Sasha Ibram" },
-      { role: { en: "Dramaturg", de: "Dramaturgin" }, name: "Maya Popov" },
-    ],
-    images: ["project-8.jpg", "project-9.jpg", "project-10.jpg"],
   },
 ];
