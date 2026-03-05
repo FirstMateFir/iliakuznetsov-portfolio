@@ -360,25 +360,31 @@ images: ["project85.jpg", "project86.jpg", "project87.jpg"],
     ],
     images: ["/cremulator1.jpg", "/cremulator2.jpg"], 
   },
-  {
-    id: 5,
-    year: "2022",
-    title: "Theatertreffen — Sondersektion",
-    role: { en: "Festival Coordinator", de: "Festivalkoordinator" },
+ {
+    id: 14, // Порядковый номер
+    year: "2022 — 2023",
+    title: "The Last Word",
+    role: { 
+      en: "Stage Manager", 
+      de: "Bühnenmanager" 
+    },
     description: {
-      en: "Curated a special section of Theatertreffen Berlin, presenting six international guest productions. Managed artist hospitality, technical integration, and audience programming.",
-      de: "Kuratorische Leitung einer Sondersektion des Theatertreffens Berlin mit sechs internationalen Gastspielen. Künstlerbetreuung, technische Integration und Publikumsprogramm.",
+      en: `The performance is based on last words of women accused of political crimes in Russian courts. Their outspoken message in a court room becomes the only matter of free speech one can imagine in contemporary Russia. The performance gathered »last words« of defendants such as Maria Alyokhina, Nadezhda Tolokonnikova, Alla Gutnikova, Sasha Skochilenko, Zarifa Sautieva and others to shine light on their courage and to paint a picture of Russia’s current regime.`,
+      de: `Die Performance basiert auf den Schlussplädoyers von Frauen, die vor russischen Gerichten wegen politischer Verbrechen angeklagt waren. Ihre unverblümte Aussage im Gerichtssaal wird zum einzigen Moment der freien Rede, die im heutigen Russland noch existiert. Die Performance versammelt »letzte Worte« von Angeklagten wie Maria Alyokhina, Nadezhda Tolokonnikova, Alla Gutnikova, Sasha Skochilenko, Zarifa Sautieva und anderen, beleuchtet ihren Mut und zeichnet ein Bild des derzeitigen russischen Regimes.`,
     },
     myRole: {
-      en: "Full coordination of six incoming productions from Poland, Belgium, and South Korea. Budget: €180,000. Audiences: 3,200 over 12 days.",
-      de: "Vollständige Koordination von sechs Gastspielen aus Polen, Belgien und Südkorea. Budget: 180.000 €. Publikum: 3.200 über 12 Tage.",
+      en: "Creation and monitoring of the production and performance schedules. Preparation of the stage, scenery, and props for shows. Executed performances as Show Caller & Stage Manager.",
+      de: "Erstellung und Überwachung des Produktions- und Aufführungsplans. Vorbereitung von Bühne, Bühnenbild und Requisiten für die Vorstellungen. Durchführung der Aufführungen als Show Caller & Bühnenmanager.",
     },
     team: [
-      { role: { en: "Artistic Selection Committee", de: "Künstlerischer Auswahlausschuss" }, name: "Jury of 5" },
-      { role: { en: "Technical Director", de: "Technischer Direktor" }, name: "Heinrich Baum" },
-      { role: { en: "Press Officer", de: "Pressesprecherin" }, name: "Leonie Schwarz" },
+      { role: { en: "Dramaturg", de: "Dramaturgie" }, name: "Anna Narinskaya" },
+      { role: { en: "Actress", de: "Schauspielerin" }, name: "Alisa Khazanova" },
+      { role: { en: "Actor", de: "Schauspieler" }, name: "Valentin Tszin" },
+      { role: { en: "Director", de: "Regie" }, name: "Maxim Didenko" },
+      { role: { en: "Set Design", de: "Bühnenbild" }, name: "Pavel Semchenko" },
+      { role: { en: "Composition", de: "Komposition" }, name: "Vladimir Rannev" },
     ],
-    images: ["project-3.jpg", "project-4.jpg", "project-5.jpg"],
+    images: ["/last-word1.jpg", "/last-word2.jpg"],
   },
   {
     id: 6,
