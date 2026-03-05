@@ -204,30 +204,32 @@ export default function Projects({ lang }: ProjectsProps) {
                 <motion.button
                   key={project.id}
                   onClick={() => setSelectedProject(project)}
-                  className="w-full text-left group grid grid-cols-[50px_1fr_auto] sm:grid-cols-[70px_1fr_auto] gap-4 sm:gap-8 py-4 border-b border-border last:border-b-0 hover:bg-secondary transition-colors duration-150"
+                  className="w-full text-left group grid grid-cols-[1fr_auto] gap-4 py-4 border-b border-border last:border-b-0 hover:bg-secondary transition-colors duration-150"
                   initial={{ opacity: 0, x: -12 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, margin: "-30px" }}
                   transition={{ duration: 0.4, delay: i * 0.05 }}
                 >
-                  {/* Year */}
-                  <span className="font-mono text-xs text-muted-foreground pt-0.5">
-                    {project.year}
-                  </span>
-
-                  {/* Title + Role */}
-                  <div className="flex flex-col sm:flex-row sm:items-baseline sm:gap-3">
-                    <span className="font-medium text-sm text-foreground group-hover:underline underline-offset-2 transition-all">
-                      {project.title}
-                    </span>
+                  {/* Title + Year + Role combined */}
+                  <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                    <div className="flex items-baseline gap-3">
+                      <span className="font-mono text-xs text-muted-foreground whitespace-nowrap">
+                        {project.year}
+                      </span>
+                      <span className="font-medium text-sm text-foreground group-hover:underline underline-offset-2 transition-all">
+                        {project.title}
+                      </span>
+                    </div>
+                    
                     <span className="hidden sm:inline text-muted-foreground text-xs">—</span>
-                    <span className="text-xs text-muted-foreground mt-0.5 sm:mt-0">
+                    
+                    <span className="text-xs text-muted-foreground">
                       {project.role[lang]}
                     </span>
                   </div>
 
                   {/* Arrow */}
-                  <span className="font-mono text-xs text-muted-foreground group-hover:text-foreground transition-colors pt-0.5 self-start sm:self-auto">
+                  <span className="font-mono text-xs text-muted-foreground group-hover:text-foreground transition-colors pt-0.5">
                     →
                   </span>
                 </motion.button>
